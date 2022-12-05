@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UsersComponent } from './users/users.component';
 import { PersonasComponent } from './personas/personas.component';
+import { ModalComponent } from './modal/modal.component';
 
 
 
@@ -13,7 +14,8 @@ import { PersonasComponent } from './personas/personas.component';
   declarations: [
     AppComponent,
     UsersComponent,
-    PersonasComponent
+    PersonasComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
